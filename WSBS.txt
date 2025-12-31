@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Soap Beauty Studio | Pure Radiance</title>
+    <style>
+        /* --- MINIMALIST BEAUTY THEME --- */
+        :root {
+            --studio-white: #FFFFFF;
+            --soft-cream: #F9F7F2;
+            --silk-grey: #E5E5E5;
+            --deep-slate: #2D3436;
+            --accent-gold: #C5A059;
+        }
+
+        /* --- RESET & TYPOGRAPHY --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: 'optima', 'Didot', 'serif'; 
+            background-color: var(--soft-cream);
+            color: var(--deep-slate);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- HEADER & NAVIGATION --- */
+        header {
+            background-color: var(--studio-white);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--silk-grey);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-style: italic;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: var(--studio-white);
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            border-bottom: 1px solid var(--silk-grey);
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: var(--deep-slate);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* --- ADSENSE PLACEMENTS (GitHub Compatible) --- */
+        .ad-container {
+            width: 100%;
+            max-width: 320px;
+            min-height: 100px;
+            background-color: #fff;
+            margin: 30px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #eee;
+            color: #ccc;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            overflow: hidden;
+        }
+
+        /* --- CONTENT SECTION --- */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .studio-intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .studio-image {
+            width: 100%;
+            height: 300px;
+            background-color: var(--silk-grey);
+            margin-bottom: 20px;
+            background-image: url('https://images.unsplash.com/photo-1552668693-d0738e00eca8?auto=format&fit=crop&w=600&q=80');
+            background-size: cover;
+            background-position: center;
+            border-radius: 2px;
+        }
+
+        .btn-booking {
+            display: inline-block;
+            border: 1px solid var(--deep-slate);
+            padding: 12px 30px;
+            text-decoration: none;
+            color: var(--deep-slate);
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing
